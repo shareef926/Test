@@ -1,5 +1,3 @@
-
-
 #if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
 #if [ -z "$BuildRelease" ] || [ -z "$BuildVersion" ] || [ -z "$BuildEnvironment" ]; then
 if [ -z "$BuildRelease" ]  || [ -z "$BuildEnvironment" ]; then
