@@ -10,7 +10,7 @@ pipeline{
         stage('Build'){
             steps{
                 echo "Building the project"
-                sh 'build.sh'
+                sh './build.sh'
             }
         }
     }
