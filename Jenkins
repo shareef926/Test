@@ -1,0 +1,17 @@
+pipeline{
+    agent any
+    stages{
+        stage('checkout from repo'){
+            steps{
+                echo "checking from git repository"
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'd297a4ad-7a9a-45b6-893b-357a2989fe63', url: 'https://github.com/shareef926/Test.git']]])
+            }
+        }
+        stage('Build'){
+            steps{
+                echo "Building the project"
+                sh 'build.sh'
+            }
+        }
+    }
+}
