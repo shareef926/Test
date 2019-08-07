@@ -1,5 +1,3 @@
-PATH=/root/Softwares/Maven/apache-maven-3.6.1/bin:/root/Softwares/git/bin:/root/Softwares/Java/jdk1.8.0_211/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
-
 #if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
 #if [ -z "$BuildRelease" ] || [ -z "$BuildVersion" ] || [ -z "$BuildEnvironment" ]; then
 if [ -z "$BuildRelease" ]  || [ -z "$BuildEnvironment" ]; then
