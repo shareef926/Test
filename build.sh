@@ -82,7 +82,7 @@ fi
 #    fi
 #read pullCode
     
-     #git pull git@github.com:inopassdev/splan.git $SOURCEBRANCH
+     git pull git@github.com:inopassdev/splan.git $SOURCEBRANCH
 
    # git pull git@github.com:inopassdev/splan.git $SOURCEBRANCH
 
